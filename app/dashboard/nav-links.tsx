@@ -14,17 +14,17 @@ export default function NavLinks(){
   const pathname = usePathname();
   const links = [
     {
-      icon: '',
+      icon: HomeIcon,
       name: 'Home',
       href: '/dashboard'
     },
     {
-      icon: '',
+      icon: DocumentDuplicateIcon,
       name: 'Invoices',
       href: '/dashboard/invoices'
     },
     {
-      icon: '',
+      icon: UserGroupIcon,
       name: 'Customers',
       href: '/dashboard/invoices/customers'
     },
